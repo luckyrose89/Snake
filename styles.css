@@ -3,10 +3,6 @@
   src: url("Minecraftia-Regular.ttf");
 }
 
-* {
-  box-sizing: border-box;
-}
-
 html {
   margin: 0;
   padding: 0;
@@ -39,14 +35,34 @@ body {
   max-width: 320px;
   margin: 10px auto;
   transition: all 0.3s ease-out;
+  border: 10px solid brown;
 }
 
 .game-grid__block {
   width: 30px;
   height: 30px;
-  background: url("grass.png");
+}
+
+.game-grid__block--green {
+  background-color: #76ba1b;
+}
+
+.game-grid__block--dark-green {
+  background-color: #4c9a2a;
+}
+
+.snake {
+  background-color: rgb(8, 206, 206);
+}
+
+.snake-body {
+  background: rgb(8, 206, 206);
+}
+
+.apple {
+  background-image: url("apple.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
