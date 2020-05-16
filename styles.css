@@ -26,6 +26,18 @@ body {
 .score {
   font-size: 2rem;
 }
+
+.start {
+  background: #b9bd00;
+  border: 5px solid #529106;
+  outline: none;
+  font-size: 2rem;
+  font-family: Minecraftia-Regular;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
 .game-grid {
   width: 300px;
   height: 300px;
@@ -63,13 +75,13 @@ body {
 
 @media (min-width: 530px) {
   .game-grid {
-    width: 500px;
-    height: 500px;
-    max-width: 500px;
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
   }
 
   .game-grid__block {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 }
